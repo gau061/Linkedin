@@ -1,0 +1,62 @@
+
+.contact-box-main{
+  padding: 0 5px;
+}
+
+.contact-box-main div[class*=col-]{
+  padding: 0 5px;
+}
+.contact-box {
+  background-color: #ffffff;
+  border: 1px solid #e7eaec;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.contact-box > a {
+  color: inherit;
+}
+.contact-box.center-version {
+  border: 1px solid #e7eaec;
+  padding: 0;
+}
+.contact-box.center-version > a {
+  display: block;
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+.contact-box.center-version > a h4 {
+  margin: 5px 0;
+  font-size: 16px;
+}
+.contact-box.center-version > a img {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 0;
+}
+.contact-box.center-version address {
+  margin-bottom: 0;
+}
+.contact-box .contact-box-footer {
+  text-align: center;
+  background-color: #ffffff;
+  /*border-top: 1px solid #e7eaec;*/
+  padding: 5px 5px 10px 5px;
+}
+.contact-box .contact-box-footer .btn-group {
+  display: block;
+}
+.contact-box .contact-box-footer .btn-group a.btn-link {
+  padding: 2px 5px !important;
+  display: block;
+  float: none;
+  text-align: left;
+  text-decoration: none;
+}
+.contact-box .contact-box-footer .btn-group > .btn,
+.contact-box .contact-box-footer .btn-group a.primary {
+  float: none !important;
+
+}

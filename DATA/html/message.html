@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" class="gr__demos_bootdey_com"><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="LinkedIn clone - Make your industry niche professional networking platform at just $199!">
+        <meta name="author" content="alphansotech">
+        <link rel="icon" href="img/favicon.png">
+        <title>LinkedIn Clone - Professional networking script</title>
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/timeline.css" rel="stylesheet">
+        <link href="css/cover.css" rel="stylesheet">
+        <link href="css/forms.css" rel="stylesheet">
+        <link href="css/buttons.css" rel="stylesheet">
+        <link href="css/messages2.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <script src="js/jquery.1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Hotjar Tracking Code for http://www.alphansotech.com/ -->
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:375939,hjsv:5};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>   
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+        <!-- Fixed navbar -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12 col-md-3 col-lg-3">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="site-logo">
+                            <a href="index.html">
+                                <img src="img/logo.png" alt="LinkedIn" title="LinkedIn" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-xs-12 col-md-9 col-lg-9">
+                        <nav class="navbar">
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="actives"><a href="home.html">Home</a></li>
+                                    <li><a href="profile.html">Profile</a></li>
+                                    <li><a href="connections.html">Connections <span class="badge">8</span></a></li>
+                                    <li><a href="group.html">Groups</a></li>
+                                    <li><a href="message.html">Messages <span class="badge">5</span></a></li>
+                                    <li><a href="index.html">Sign-out</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- Fixed navbar -->
+                    </div>
+                </div>
+            </div>         
+        </header>
+        
+        
+        <!-- Begin page content -->
+        <div class="container page-content">
+            <div class="row">
+                <div class="page-title">
+                    <h4>Messaging</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                <div class="tile tile-alt" id="messages-main">
+                    <div class="ms-menu">
+                        <div class="ms-user clearfix">
+                            <img src="img/guy-3.jpg" alt="" class="img-avatar pull-left">
+                            <div>Signed in as <br> gronemo@gmail.com</div>
+                        </div>
+
+                        <div class="p-15">
+                            <div class="dropdown">
+                                <a class="btn btn-azure btn-block" href="" data-toggle="dropdown">Messages <i class="caret m-l-5"></i></a>
+
+                                <ul class="dropdown-menu dm-icon w-100">
+                                    <li><a href=""><i class="fa fa-envelope"></i> Messages</a></li>
+                                    <li><a href=""><i class="fa fa-users"></i> Contacts</a></li>
+                                    <li><a href=""><i class="fa fa-format-list-bulleted"> </i>Todo Lists</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="list-group lg-alt">
+                            <a class="list-group-item media" href="">
+                                <div class="pull-left">
+                                    <img src="img/guy-2.jpg" alt="" class="img-avatar">
+                                </div>
+                                <div class="media-body">
+                                    <small class="list-group-item-heading">Davil Parnell</small>
+                                    <small class="list-group-item-text c-gray">Fierent fastidii recteque ad pro</small>
+                                </div>
+                            </a>
+
+                            <a class="list-group-item media" href="">
+                                <div class="pull-left">
+                                    <img src="img/guy-3.jpg" alt="" class="img-avatar">
+                                </div>
+                                <div class="media-body">
+                                    <div class="list-group-item-heading">Ann Watkinson</div>
+                                    <small class="list-group-item-text c-gray">Cum sociis natoque penatibus </small>
+                                </div>
+                            </a>
+
+                            <a class="list-group-item media" href="">
+                                <div class="pull-left">
+                                    <img src="img/guy-4.jpg" alt="" class="img-avatar">
+                                </div>
+                                <div class="media-body">
+                                    <div class="list-group-item-heading">Marse Walter</div>
+                                    <small class="list-group-item-text c-gray">Suspendisse sapien ligula</small>
+                                </div>
+                            </a>
+
+                            <a class="list-group-item media" href="">
+                                <div class="lv-avatar pull-left">
+                                    <img src="img/guy-5.jpg" alt="" class="img-avatar">
+                                </div>
+                                <div class="media-body">
+                                    <div class="list-group-item-heading">Jeremy Robbins</div>
+                                    <small class="list-group-item-text c-gray">Phasellus porttitor tellus nec</small>
+                                </div>
+                            </a>
+
+                            <a class="list-group-item media" href="">
+                                <div class="lv-avatar pull-left">
+                                    <img src="img/guy-6.jpg" alt="" class="img-avatar">
+                                </div>
+                                <div class="media-body">
+                                    <div class="list-group-item-heading">Reginald Horace</div>
+                                    <small class="list-group-item-text c-gray">Quisque consequat arcu eget</small>
+                                </div>
+                            </a>
+
+                            <a class="list-group-item media" href="">
+                                <div class="pull-left">
+                                    <img src="img/guy-7.jpg" alt="" class="img-avatar">
+                                </div>
+                                <div class="media-body">
+                                    <div class="list-group-item-heading">Shark Henry</div>
+                                    <small class="list-group-item-text c-gray">Nam lobortis odio et leo maximu</small>
+                                </div>
+                            </a>
+
+                            <a class="list-group-item media" href="">
+                                <div class="pull-left">
+                                    <img src="img/guy-3.jpg" alt="" class="img-avatar">
+                                </div>
+                                <div class="media-body">
+                                    <div class="list-group-item-heading">Paul Van Dack</div>
+                                    <small class="list-group-item-text c-gray">Nam posuere purus sed velit auctor sodales</small>
+                                </div>
+                            </a>
+
+                            <a class="list-group-item media" href="">
+                                <div class="lv-avatar pull-left">
+                                    <img src="img/guy-2.jpg" alt="" class="img-avatar">
+                                </div>
+                                <div class="media-body">
+                                    <div class="list-group-item-heading">James Anderson</div>
+                                    <small class="list-group-item-text c-gray">Vivamus imperdiet sagittis quam</small>
+                                </div>
+                            </a>
+
+                            <a class="list-group-item media" href="">
+                                <div class="lv-avatar pull-left">
+                                    <img src="img/guy-3.jpg" alt="" class="img-avatar">
+                                </div>
+                                <div class="media-body">
+                                    <div class="list-group-item-heading">Kane Williams</div>
+                                    <small class="list-group-item-text c-gray">Suspendisse justo nulla luctus nec</small>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+
+                    <div class="ms-body">
+                        <div class="action-header clearfix">
+                            <div class="visible-xs" id="ms-menu-trigger">
+                                <i class="fa fa-bars"></i>
+                            </div>
+
+                            <div class="pull-left hidden-xs">
+                                <img src="img/guy-2.jpg" alt="" class="img-avatar m-r-10">
+                                <div class="lv-avatar pull-left">
+
+                                </div>
+                                <span>David Parbell</span>
+                            </div>
+
+                            <ul class="ah-actions actions">
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-trash"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-check"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-clock-o"></i>
+                                    </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="" data-toggle="dropdown" aria-expanded="true">
+                                        <i class="fa fa-sort"></i>
+                                    </a>
+
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li>
+                                            <a href="">Latest</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Oldest</a>
+                                        </li>
+                                    </ul>
+                                </li>                             
+                                <li class="dropdown">
+                                    <a href="" data-toggle="dropdown" aria-expanded="true">
+                                        <i class="fa fa-bars"></i>
+                                    </a>
+
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li>
+                                            <a href="">Refresh</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Message Settings</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="message-feed media">
+                            <div class="pull-left">
+                                <img src="img/guy-3.jpg" alt="" class="img-avatar">
+                            </div>
+                            <div class="media-body">
+                                <div class="mf-content">
+                                    Quisque consequat arcu eget odio cursus, ut tempor arcu vestibulum. Etiam ex arcu, porta a urna non, lacinia pellentesque orci. Proin semper sagittis erat, eget condimentum sapien viverra et. Mauris volutpat magna nibh, et condimentum est rutrum a. Nunc sed turpis mi. In eu massa a sem pulvinar lobortis.
+                                </div>
+                                <small class="mf-date"><i class="fa fa-clock-o"></i> 20/02/2015 at 09:00</small>
+                            </div>
+                        </div>
+
+                        <div class="message-feed right">
+                            <div class="pull-right">
+                                <img src="img/guy-2.jpg" alt="" class="img-avatar">
+                            </div>
+                            <div class="media-body">
+                                <div class="mf-content">
+                                    Mauris volutpat magna nibh, et condimentum est rutrum a. Nunc sed turpis mi. In eu massa a sem pulvinar lobortis.
+                                </div>
+                                <small class="mf-date"><i class="fa fa-clock-o"></i> 20/02/2015 at 09:30</small>
+                            </div>
+                        </div>
+
+                        <div class="message-feed media">
+                            <div class="pull-left">
+                                <img src="img/guy-3.jpg" alt="" class="img-avatar">
+                            </div>
+                            <div class="media-body">
+                                <div class="mf-content">
+                                    Etiam ex arcumentum
+                                </div>
+                                <small class="mf-date"><i class="fa fa-clock-o"></i> 20/02/2015 at 09:33</small>
+                            </div>
+                        </div>
+
+                        <div class="message-feed right">
+                            <div class="pull-right">
+                                <img src="img/guy-2.jpg" alt="" class="img-avatar">
+                            </div>
+                            <div class="media-body">
+                                <div class="mf-content">
+                                    Etiam nec facilisis lacus. Nulla imperdiet augue ullamcorper dui ullamcorper, eu laoreet sem consectetur. Aenean et ligula risus. Praesent sed posuere sem. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                </div>
+                                <small class="mf-date"><i class="fa fa-clock-o"></i> 20/02/2015 at 10:10</small>
+                            </div>
+                        </div>
+
+                        <div class="message-feed media">
+                            <div class="pull-left">
+                                <img src="img/guy-3.jpg" alt="" class="img-avatar">
+                            </div>
+                            <div class="media-body">
+                                <div class="mf-content">
+                                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ac tortor ut elit sodales varius. Mauris id ipsum id mauris malesuada tincidunt. Vestibulum elit massa, pulvinar at sapien sed, luctus vestibulum eros. Etiam finibus tristique ante, vitae rhoncus sapien volutpat eget
+                                </div>
+                                <small class="mf-date"><i class="fa fa-clock-o"></i> 20/02/2015 at 10:24</small>
+                            </div>
+                        </div>
+
+                        <div class="msb-reply">
+                            <textarea placeholder="Enter your response..."></textarea><grammarly-btn><div style="visibility: hidden; z-index: 2;" class="_e725ae-textarea_btn _e725ae-not_focused" data-grammarly-reactid=".0"><div class="_e725ae-transform_wrap" data-grammarly-reactid=".0.0"><div title="Protected by Grammarly" class="_e725ae-status" data-grammarly-reactid=".0.0.0">&nbsp;</div></div></div></grammarly-btn>
+                            <button><i class="fa fa-paper-plane-o"></i></button>
+                        </div>
+                    </div>
+                </div>
+                </div>  
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted"> Copyright © Company - All rights reserved </p>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,265 @@
+.cover-main{
+}
+.cover {
+  position: relative;
+  margin-bottom: 0px;
+}
+.panel > .cover {
+  margin-bottom: 0;
+}
+.cover.profile {
+  position: relative;
+  background: #ffffff;
+  border: 0px solid #e2e9e6;
+}
+.cover.profile .wrapper {
+  position: relative;
+  border-bottom: 1px solid #e2e9e6;
+}
+.cover.profile .wrapper .image {
+  width: 100%;
+  padding: 0px;
+  max-height: 250px;
+  overflow: hidden;
+
+}
+.cover.profile .wrapper .image:after {
+  position: absolute;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  z-index: 1;
+  pointer-events: none;
+  /* "all" disables mouse access to image */
+  /* Mozilla Setting */
+  background-image: linear-gradient(transparent, black);
+  opacity: .7;
+}
+.cover.profile .wrapper .image img {
+  width: 100%;
+  /*height: 350px;*/
+}
+
+
+/*.cover.profile .wrapper .friends {
+  list-style: none;
+  display: inline-block;
+  position: absolute;
+  background: #fff;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 250px;
+  z-index: 2;
+  margin-bottom: 0;
+  padding: 0;
+}
+.cover.profile .wrapper .friends li {
+  float: left;
+  margin: 0;
+  width: 33.33%;
+}
+.cover.profile .wrapper .friends li a {
+  display: block;
+  padding-left: 1px;
+  padding-top: 1px;
+}
+.cover.profile .wrapper .friends li a img {
+  width: 100%;
+}
+.cover.profile .wrapper .friends li a.group {
+  font-size: 40px;
+  color: #efefef;
+  text-align: center;
+}
+.cover.profile .wrapper .friends li a.group i {
+  position: relative;
+  top: 12px;
+}*/
+.cover.profile .cover-info {
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.cover.profile .cover-info .profile-date {
+  position: relative;
+  margin :80px 0 0px 0;
+  padding-bottom: 15px;
+  display: block;
+}
+.cover.profile .cover-info .name {
+  text-align: center;  
+}
+.cover.profile .cover-info .name a {
+  display: inline-block;
+  color: #0077B5 ;
+  font-size: 24px;
+  font-weight: 500;
+}
+.cover.profile .cover-info .text p {
+  color: #666666;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}
+.cover.profile .cover-info .avatar {
+  position: absolute;
+  display: block;
+  margin: 5px auto;
+  width: 150px;  
+  top: -85px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+  z-index: 1;  
+}
+.cover.profile .cover-info .avatar img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #fff;
+}
+
+
+.cover-nav {
+  background: #ffffff;
+  margin: 0 0 20px 0;  
+  padding: 0;
+  display: block;
+  border-top: 1px solid #eeeeee;
+}
+.cover-nav li {
+  display: inline-block;
+  border: none;
+}
+.cover-nav > li > a {
+  line-height: 20px;
+  padding: 15px;
+  color: #bebebe;
+  font-size: 14px;
+  display: block;
+}
+.cover-nav > li > a i {
+  font-size: 20px;
+  vertical-align: middle;
+  color: #e4e4e4;
+}
+.cover-nav > li > a:hover {
+  background: none;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.cover-nav > li > a:hover i {
+  color: #6c6c6c;
+}
+.cover-nav > li.active > a {
+  background: none;
+  color: #6c6c6c;
+}
+.cover-nav > li.active > a i {
+  color: #6c6c6c;
+}
+
+
+@media (max-width: 992px) {
+  .cover.profile .wrapper .image {
+    padding: 0px;
+    height: auto;
+    position: relative;
+  }
+  .cover.profile .wrapper .friends {
+    position: absolute;
+    right: 0;
+    width: 120px;
+    height: auto;
+  }
+  .cover.profile .wrapper .friends > li {
+    width: 50%;
+  }
+  .cover.profile .wrapper .friends > li > a.group {
+    font-size: 30px;
+  }
+  .cover.profile .wrapper .friends > li > a.group i {
+    top: 10px;
+  }
+  .cover.profile .wrapper .name a {
+    color: #212121;
+  }
+  .cover.profile .wrapper .nav {
+    left: 0;
+    padding-left: 140px;
+    width: 100%;
+    border-top: 1px solid #e2e9e6;
+  }
+  .cover.profile .cover-info {
+    /*height: 37px;*/
+  }
+  .cover.profile .cover-info .name {
+    /*left: 100px;
+    margin-bottom: 40px;*/
+  }
+  .cover.profile .cover-info .name a {
+    font-size: 24px;
+  }
+  .cover.profile .cover-info .cover-nav {
+    left: 85px;
+  }
+  .cover.profile .cover-info .cover-nav > li > a {
+    padding: 8px 10px;
+  }
+  .cover.profile .cover-info .avatar {
+   /* left: 10px;
+    margin-bottom: 3px;*/
+  }
+  .cover.profile .cover-info .avatar img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (max-width: 768px) {  
+  .cover.profile .cover-info {
+    background: #fff;
+    clear: both;
+    height: auto;
+    top: 0;
+  }
+  .cover.profile .cover-info .avatar {
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    width: auto;
+  }
+  .cover.profile .cover-info .avatar img {
+    width: 45px;
+    height: 45px;
+  }
+  .cover.profile .cover-info .name {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 0;
+    left: 10px;
+    top: 3px;
+  }
+  .cover.profile .cover-info .name a {
+    color: #212121;
+    font-size: 18px;
+  }
+  .cover.profile .cover-info .cover-nav {
+    position: relative;
+    margin: 0;
+    bottom: 0;
+    left: auto;
+    float: none;
+    padding-left: 0;
+    border-top: 1px solid #e2e9e6;
+  }
+  .cover.profile .cover-info .cover-nav li {
+    float: none;
+    border-right: 0 !important;
+    border-bottom: 1px solid #e2e9e6;
+  }
+}
