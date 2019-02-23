@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Frontuser extends Authenticatable
 {
-    use Notifiable
+    use Notifiable;
 
     protected $guard = 'frontusers';
 	
